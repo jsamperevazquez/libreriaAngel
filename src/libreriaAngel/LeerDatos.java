@@ -2,7 +2,7 @@
  * Creado por @autor: angel
  * El  03 de feb. de 2021.
  **/
-package libreriaAngel;
+package src.libreriaAngel;
 import javax.swing.JOptionPane;
 
 public class LeerDatos {

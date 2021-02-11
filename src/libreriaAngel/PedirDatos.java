@@ -1,4 +1,4 @@
-package libreriaAngel;
+package src.libreriaAngel;
 import javax.swing.JOptionPane;
 /**
  * Creado por @autor: angel
