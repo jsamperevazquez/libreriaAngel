@@ -6,18 +6,18 @@ package libreriaAngel;
 import javax.swing.JOptionPane;
 
 public class ValidarDatos {
-    public static int validarIntMenorQueCero(){
+    public static int validarIntMenorQueCero(String mensaje){
         int dato;
         do{
-            dato = Integer.parseInt(JOptionPane.showInputDialog(null,"Dato positivo"));
+            dato = Integer.parseInt(JOptionPane.showInputDialog(null,mensaje));
 
         }while (dato <=0);
         return dato;
     }
-    public static float validarFloatMenorQueCero(){
+    public static float validarFloatMenorQueCero(String mensaje){
         float dato;
         do{
-            dato = Float.parseFloat(JOptionPane.showInputDialog(null,"Dato positivo"));
+            dato = Float.parseFloat(JOptionPane.showInputDialog(null,mensaje));
 
         }while (dato <=0);
         return dato;
