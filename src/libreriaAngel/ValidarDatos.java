@@ -1,4 +1,4 @@
-package src.libreriaAngel;
+package libreriaAngel;
 /**
  * Creado por @autor: angel
  * El  03 de feb. de 2021.

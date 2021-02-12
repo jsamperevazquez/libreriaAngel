@@ -1,4 +1,4 @@
-package src.libreriaAngel;
+package libreriaAngel;
 import javax.swing.*;
 
 
